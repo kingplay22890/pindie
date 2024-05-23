@@ -53,5 +53,5 @@ gameSchema.statics.findGameByCategory = function (category) {
     });
 };
 
-const games = mongoose.model("game", gameSchema);
-module.exports = games;
+const game = mongoose.model("game", gameSchema);
+module.exports = game;
